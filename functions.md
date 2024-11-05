@@ -159,6 +159,10 @@ En la mayoría de los casos, esto sólo es relevante para la optimización del c
 use valores definidos en tiempo de compilación. 
 Como este tipo de constantes permiten una mejor optimización, en general siempre intentaremos que las constantes sean evaluables en tiempo de compilación.
 
+Recuerde que, de acuerdo a la 
+[Guía de Estilo](https://google.github.io/styleguide/cppguide.html#Constant_Names), los identificadores de
+constantes debieran comenzar por una "k" inicial, seguida del nombre usando *Camel Case*.
+
 Que una constante sea evaluable en tiempo de compilación o en tiempo de ejecución depende si su inicialización se pueda realizar durante la compilación. En algunos casos, esto puede ser difícil de determinar. Por ejemplo:
 
 ```
