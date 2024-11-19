@@ -1,0 +1,13 @@
+# Doxyfile.in
+
+# Proyecto
+PROJECT_NAME = ProjectName
+OUTPUT_DIRECTORY = ${CMAKE_CURRENT_BINARY_DIR}/doc
+
+# Incluir todos los archivos fuente
+FILE_PATTERNS = *.cc
+
+# Configuración de documentación
+GENERATE_HTML = YES
+GENERATE_LATEX = NO
+
